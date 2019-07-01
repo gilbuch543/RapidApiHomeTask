@@ -15,7 +15,7 @@ public class TestMainPage extends FunctionalTest {
      * - Message received is valid<br>
      */
     @Test
-    public void clickAndVerifyButton() {
+    public void TestClickAndVerifyButton() {
 
 
         MainPage mainPage = new MainPage(driver);
