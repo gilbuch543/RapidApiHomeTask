@@ -87,7 +87,6 @@ public class MainPage extends PageObject {
     private void printWrongValidationMessage() {
         try {
             File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            // now copy the  screenshot to desired location using copyFile //method
             FileUtils.copyFile(src, new File("D:/errorWrongValidationMessage.png"));
         } catch (IOException e) {
             System.out.println(e.getMessage());
