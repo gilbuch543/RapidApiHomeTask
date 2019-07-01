@@ -6,7 +6,7 @@ import static junit.framework.TestCase.assertTrue;
 public class TestMainPage extends FunctionalTest {
 
     public String MESSAGE_VALID = "Hello World!";
-    public String MESSAGE_INVALID = "Hey World";
+    public String MESSAGE_INVALID = "Hey World!";
 
     /**
      * <b>Method Steps:</b><br>
