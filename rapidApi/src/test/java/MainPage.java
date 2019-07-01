@@ -11,7 +11,7 @@ import java.io.IOException;
 
 public class MainPage extends PageObject {
     private String REDCOLOR = "arguments[0].style.border='2px solid red'";
-
+    private String PATHERRORFILE = "D:/errorWrongValidationMessage.png";
     public MainPage(WebDriver driver) {
         super(driver);
     }
@@ -87,7 +87,7 @@ public class MainPage extends PageObject {
     private void printWrongValidationMessage() {
         try {
             File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            FileUtils.copyFile(src, new File("D:/errorWrongValidationMessage.png"));
+            FileUtils.copyFile(src, new File(PATHERRORFILE));
         } catch (IOException e) {
             System.out.println(e.getMessage());
 
