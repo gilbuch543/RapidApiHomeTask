@@ -9,12 +9,12 @@ import java.util.concurrent.TimeUnit;
 public class FunctionalTest {
     public static WebDriver driver;
 
-    static final String INPUT_PATH = "\\src\\test\\java\\drivers\\chromedriver.exe";
+    static final String DRIVER_PATH = "\\src\\test\\java\\drivers\\chromedriver.exe";
 
     @Before
     public void initialize() {
 
-        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + INPUT_PATH);
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + DRIVER_PATH);
         driver = new ChromeDriver();
 //To maximize browser
         driver.manage().window().maximize();
