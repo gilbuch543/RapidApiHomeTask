@@ -1,5 +1,5 @@
 # RapidApiHomeTask:
-# Driver path : used chromedriver.exe inside IdeaProjects\RapidApiHomeTask\rapidApi\src\test\java\drivers
+# Driver path : used chromedriver.exe inside \..\IdeaProjects\RapidApiHomeTask\rapidApi\src\test\java\drivers
 # Dependencies : i used maven based - commons-io,selenium-support,selenium-chrome-driver,junit
 # Sources :
 # https://www.pluralsight.com/guides/getting-started-with-page-object-pattern-for-your-selenium-tests
