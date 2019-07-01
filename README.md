@@ -6,3 +6,4 @@
 # https://stackoverflow.com/questions/12858972/how-can-i-ask-the-selenium-webdriver-to-wait-for-few-seconds-in-java
 # https://www.seleniumhq.org/docs/04_webdriver_advanced.jsp
 # https://www.skptricks.com/2018/03/how-to-highlight-element-in-selenium-webdriver.html
+# screenshot created under folder D
